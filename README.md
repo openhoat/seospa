@@ -2,5 +2,5 @@
 
 ### Install
 
-  $ ./bin/install
+    ./bin/install
 
