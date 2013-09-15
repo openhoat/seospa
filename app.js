@@ -3,6 +3,7 @@ var http = require('http')
   , ejs = require('ejs')
   , lessMiddleware = require('less-middleware')
   , config = require('./config')
+  , robotMiddleware = require('./lib/robot-middleware')
   , app;
 
 app = express();
@@ -10,6 +11,7 @@ app.set('port', config.listenPort);
 app.set('views', config.viewsDir);
 app.engine('html', ejs.renderFile);
 app.set('view engine', 'html');
+app.use(robotMiddleware);
 app.use(app.router);
 app.use(lessMiddleware(config.less));
 app.use('/assets', express.static(config.assetsDir));
