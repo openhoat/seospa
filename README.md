@@ -5,6 +5,10 @@ The goal of this project is to show different ways to deal with Search Engine Op
 The web app is powered by nodejs at the server side, and angularjs at the client side, but any MVC framework (backbone, ember)
 should work for the client.
 
+The base web app shows a single page with two links and two partials with dynamic contents.
+
+Contents are evaluated by the js client code, so when we browse the page as a search robot, no content is returned : this is the problem this project is trying to fix.
+
 ### Structure
 
 The project has several branches to provide :
