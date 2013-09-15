@@ -1,1 +1,1 @@
-# Seo Single Page Application Demo
+## Seo Single Page Application Demo
