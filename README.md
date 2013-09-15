@@ -34,7 +34,7 @@ The project has several branches to provide :
 
     ./bin/rob route_uri
 
-route_uri :
+where route_uri is :
 * a => should return the content of the view and the evaluated partial a.html
 * b => should return the content of the view and the evaluated partial b.html
 * any other => should return the content of the view and the evaluated partial notFound.html
