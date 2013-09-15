@@ -9,10 +9,10 @@ should work for the client.
 
 The project has several branches to provide :
 
-1. The base web app : not SEO compliant
-2. A solution based on JS code sharing on both side : SEO partially compliant, nodejs only
-3. A solution based on phantomjs : SEO compliant but the app opens one more port
-4. A solution based on jsdom : SEO compliant, but nodejs only
+* master : the base web app, not SEO compliant
+* include : a solution based on JS code sharing on both side, SEO partially compliant, nodejs only
+* phantom  : a solution based on phantomjs, SEO fully compliant but the app opens one more port
+* jsdom : a solution based on jsdom, SEO fully compliant, but nodejs only
 
 ### Install
 
