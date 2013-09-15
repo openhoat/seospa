@@ -10,7 +10,8 @@
   "dependencies": {
     "express": "3.4.0",
     "ejs": "0.8.4",
-    "less-middleware": "0.1.12"
+    "less-middleware": "0.1.12",
+    "jsdom": "0.8.4"
   },
   "devDependencies": {}
 }
