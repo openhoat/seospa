@@ -1,0 +1,54 @@
+@color1: #777;
+@color2: #fff;
+@color3: #555555;
+@color4: #333;
+@color5: #fff;
+
+html {
+  background-color: @color1;
+}
+
+body {
+  max-width: 80%;
+  margin: 20px auto;
+  background-color: @color2;
+  border-radius: 10px;
+  color: @color3;
+}
+
+header {
+  background-color: @color4;
+  color: @color5;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 20px;
+  a {
+    @color5;
+  }
+  h1 {
+    margin: 10px 20px;
+  }
+}
+
+#main {
+  padding: 10px 20px;
+  min-height: 350px;
+}
+
+ul {
+  list-style-type: none;
+  li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+}
+
+a {
+  &, &:visited {
+    text-decoration: none;
+    color: @color5;
+    font-weight: bold;
+  }
+  &:hover {
+    text-decoration: underline;
+  }
+}

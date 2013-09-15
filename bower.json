@@ -1,0 +1,14 @@
+{
+  "name": "seospa",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Seo Single Page Application Demo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "assets/lib"
+  ],
+  "dependencies": {
+    "angular": "1.0.8"
+  }
+}

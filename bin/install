@@ -1,0 +1,15 @@
+#!/bin/bash
+
+THIS_SCRIPT_DIR=$(cd $(dirname $0)/.. && pwd)
+
+cd ${THIS_SCRIPT_DIR} > /dev/null
+
+echo "Server modules install :"
+npm install && \
+echo "ok"
+
+echo "Client modules install :"
+bower install && \
+echo "ok"
+
+echo "done."

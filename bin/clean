@@ -1,0 +1,9 @@
+#!/bin/bash
+
+THIS_SCRIPT_DIR=$(cd $(dirname $0)/.. && pwd)
+
+cd ${THIS_SCRIPT_DIR} > /dev/null
+
+rm -vrf node_modules assets/lib/angular
+
+echo "done."

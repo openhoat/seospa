@@ -1,0 +1,4 @@
+node_modules
+.idea
+assets/styles/default.css
+assets/lib/angular
