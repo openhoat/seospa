@@ -1,4 +1,4 @@
-## Seo Single Page Application Demo
+## Seo Single Page Application Demo ##digitalmarketing ##seo ##smo ##rankinserachengine
 
 The goal of this project is to show different ways to deal with Search Engine Optimization (SEO) and Single Page Applications.
 
